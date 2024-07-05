@@ -1,1 +1,60 @@
 /* You can add global styles to this file, and also import other style files */
+.btn-primary {
+  background: linear-gradient(45deg, #E60063, #7b1fa2) !important;
+  border: none !important;
+  color: white !important;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open>.dropdown-toggle.btn-primary {
+  background: linear-gradient(45deg, #cc0058, #6d1c90) !important;
+  border: none !important;
+  color: white !important;
+  box-shadow: 0 0 0 0.2rem rgba(230, 0, 99, 0.25) !important;
+}
+
+
+a {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: #E60063 !important;
+}
+
+.form-control:focus {
+  border-color: #E60063 !important;
+  box-shadow: 0 0 0 0.2rem rgba(230, 0, 99, 0.25) !important;
+}
+
+.form-check-input:checked {
+  background-color: #E60063 !important;
+  border-color: #E60063 !important;
+}
+
+.form-check-input:focus {
+  border-color: #E60063 !important;
+  box-shadow: 0 0 0 0.2rem rgba(230, 0, 99, 0.25) !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  color: #383838;
+}
+
+p,
+span,
+label {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: #383838;
+
+}
