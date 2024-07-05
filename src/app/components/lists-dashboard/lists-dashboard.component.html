@@ -4,20 +4,27 @@
             <div class="col-4 pe-4">
                 <div class="row py-4">
                     <div class="row justify-content-end mb-5">
+                        <div class="col-2 text-start align-content-center">
+                            <a href="">
+                                <i class="bi bi-arrow-left-short" style="font-size: 2.5rem; color: #383838;"></i>
+                            </a>
+                        </div>
                         <div class="col-lg text-center">
                             <img class="img-fluid" style="max-height: 48px;" src="..\assets\images\logo.png"
                                 alt="Listagram-logo">
                         </div>
-                        <div class="col-2 text-end align-content-center">
-                            <i class="bi bi-search" style="font-size: 1.5rem;"></i>
+                        <div class="col-2 text-end align-content-center pe-0">
+                            <a href="">
+                                <i class="bi bi-search" style="font-size: 1.5rem; color: #383838;"></i>
+                            </a>
                         </div>
                     </div>
                     <div>
-                        <a href="#" class="">
-                            <div class="card p-3 pb-0 pe-0 mb-2"style="border-bottom-right-radius: 24px;">
+                        <a href="#" style="text-decoration: none;">
+                            <div class="card p-3 pb-0 pe-0 mb-2" style="border-bottom-right-radius: 24px;">
                                 <div class="row justify-content-between">
                                     <div class="col">
-                                        <h5>Peliculas para ver</h5>
+                                        <h5>Gastos del mes</h5>
                                     </div>
                                     <div class="col-4 text-end me-3">
                                         <p>05/07/24</p>
@@ -25,23 +32,20 @@
                                 </div>
                                 <div class="row justify-content-between">
                                     <div class="col pb-4 pe-lg-0">
-                                        Hola amiguito que talsdfds como estas,
-                                        Hola amiguito que talsdfds como estas,
-                                        Hola amiguito que talsdfds como estas,
-                                        Hola amiguito que talsdfds como estas,
-                                        Hola amiguito que talsdfds como estas,
+                                       Total de la lista: $13,500.00
                                     </div>
-                                    <div class="col-lg-3 text-end align-content-end ps-0" >
-                                        <img class="img-fluid" src="..\assets\images\char_icon.svg" alt="chat-list-icon" style="width: 48px;">
+                                    <div class="col-lg-3 text-end align-content-end ps-0">
+                                        <img class="img-fluid" src="..\assets\images\expenses_icon.svg"
+                                            alt="chat-list-icon" style="width: 48px;">
                                     </div>
                                 </div>
                             </div>
                         </a>
-                        <a href="#" class="">
-                            <div class="card p-3 pb-0 pe-0 mb-2"style="border-bottom-right-radius: 24px;">
+                        <a href="#" style="text-decoration: none;">
+                            <div class="card p-3 pb-0 pe-0 mb-2" style="border-bottom-right-radius: 24px;">
                                 <div class="row justify-content-between">
                                     <div class="col">
-                                        <h5>Peliculas para ver</h5>
+                                        <h5>Películas recomendadas</h5>
                                     </div>
                                     <div class="col-4 text-end me-3">
                                         <p>05/07/24</p>
@@ -49,22 +53,63 @@
                                 </div>
                                 <div class="row justify-content-between">
                                     <div class="col pb-4 pe-lg-0">
-                                        Hola amiguito que talsdfds como estas,
+                                        Parasite 
+                                        <br>
+                                        (2019, Bong Joon-ho)
+                                        <br>
+                                        Una familia pobre se infiltra en la vida de una familia rica, revelando oscuros
+                                        secretos.
                                     </div>
-                                    <div class="col-lg-3 text-end align-content-end ps-0" >
-                                        <img class="img-fluid" src="..\assets\images\char_icon.svg" alt="chat-list-icon" style="width: 48px;">
+                                    <div class="col-lg-3 text-end align-content-end ps-0">
+                                        <img class="img-fluid" src="..\assets\images\chat_icon.svg" alt="chat-list-icon"
+                                            style="width: 48px;">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#" style="text-decoration: none;">
+                            <div class="card p-3 pb-0 pe-0 mb-2" style="border-bottom-right-radius: 24px;">
+                                <div class="row justify-content-between">
+                                    <div class="col">
+                                        <h5>Compras del super</h5>
+                                    </div>
+                                    <div class="col-4 text-end me-3">
+                                        <p>05/07/24</p>
+                                    </div>
+                                </div>
+                                <div class="row justify-content-between">
+                                    <div class="col pb-4 pe-lg-0">
+                                        Pan <br>
+                                        Rollo <br>
+                                        ... <br>
+                                    </div>
+                                    <div class="col-lg-3 text-end align-content-end ps-0">
+                                        <img class="img-fluid" src="..\assets\images\check_icon.svg"
+                                            alt="chat-list-icon" style="width: 48px;">
                                     </div>
                                 </div>
                             </div>
                         </a>
                     </div>
-                    <p class="p-5 text-center">Nota: Esta página solo es un mockup. No incluye todas las funcionalidades de la aplicación</p>
+                    <p class="p-5 text-center">Nota: Esta página solo es un mockup. No incluye todas las funcionalidades
+                        de la aplicación</p>
                 </div>
             </div>
-            <div class="col ps-4" style="border-left: 1px solid; border-color: #dee2e6;">
-                <div class="py-4">
-                    <h1>TIULO</h1>
-                    <p>lists-dashboard works!</p>
+            <div class="col ps-5 d-flex justify-content-between flex-column"
+                style="border-left: 1px solid; border-color: #dee2e6;">
+                <app-chat-list></app-chat-list>
+                <div class="sticky-bottom pb-4">
+                    <div class="row">
+                        <div class="col align-content-center">
+                            <input type="text" class="custom-input" placeholder="Agrega un elemento">
+                        </div>
+                        <div class="col-lg-1 text-end-lg">
+                            <button class="btn btn-primary p-0" style="border-radius: 28px; width: 56px; height: 56px;">
+                                <img class="img-fluid" src="..\assets\images\send_icon.svg" alt="chat-list-icon"
+                                    style="width: 50px;">
+                            </button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

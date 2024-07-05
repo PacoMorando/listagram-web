@@ -1,3 +1,14 @@
-.lists-card {
-    border-radius: 8px 8px 24px 8px !important;
+.custom-input {
+    height: 56px;
+    width: 100%;
+    padding: 0 16px;
+    border: 3px solid; 
+    border-color: #E60063;
+    border-radius: 26px;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .custom-input:focus {
+    box-shadow: 0 0 5px #7b1fa2 ;
   }
