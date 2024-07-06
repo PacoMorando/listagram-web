@@ -1,0 +1,9 @@
+{
+  "routes": [
+    "/login",
+    "/my-lists",
+    "/my-lists/chat",
+    "/my-lists/check",
+    "/my-lists/expenses"
+  ]
+}
