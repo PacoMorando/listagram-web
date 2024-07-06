@@ -5,7 +5,7 @@
                 <div class="row py-4">
                     <div class="row justify-content-end mb-5">
                         <div class="col-2 text-start align-content-center">
-                            <a href="">
+                            <a href="../login">
                                 <i class="bi bi-arrow-left-short" style="font-size: 2.5rem; color: #383838;"></i>
                             </a>
                         </div>
@@ -14,13 +14,13 @@
                                 alt="Listagram-logo">
                         </div>
                         <div class="col-2 text-end align-content-center pe-0">
-                            <a href="">
+                            <a href="../my-lists/chat">
                                 <i class="bi bi-search" style="font-size: 1.5rem; color: #383838;"></i>
                             </a>
                         </div>
                     </div>
                     <div>
-                        <a href="#" style="text-decoration: none;">
+                        <a href="../my-lists/expenses" style="text-decoration: none;">
                             <div class="card p-3 pb-0 pe-0 mb-2" style="border-bottom-right-radius: 24px;">
                                 <div class="row justify-content-between">
                                     <div class="col">
@@ -41,7 +41,7 @@
                                 </div>
                             </div>
                         </a>
-                        <a href="#" style="text-decoration: none;">
+                        <a href="../my-lists/chat" style="text-decoration: none;">
                             <div class="card p-3 pb-0 pe-0 mb-2" style="border-bottom-right-radius: 24px;">
                                 <div class="row justify-content-between">
                                     <div class="col">
@@ -67,7 +67,7 @@
                                 </div>
                             </div>
                         </a>
-                        <a href="#" style="text-decoration: none;">
+                        <a href="../my-lists/check" style="text-decoration: none;">
                             <div class="card p-3 pb-0 pe-0 mb-2" style="border-bottom-right-radius: 24px;">
                                 <div class="row justify-content-between">
                                     <div class="col">
@@ -79,8 +79,8 @@
                                 </div>
                                 <div class="row justify-content-between">
                                     <div class="col pb-4 pe-lg-0">
-                                        Pan <br>
-                                        Rollo <br>
+                                        🍞 Pan <br>
+                                        🥛 Leche
                                         ... <br>
                                     </div>
                                     <div class="col-lg-3 text-end align-content-end ps-0">
@@ -97,7 +97,12 @@
             </div>
             <div class="col ps-5 d-flex justify-content-between flex-column"
                 style="border-left: 1px solid; border-color: #dee2e6;">
-                <app-chat-list></app-chat-list>
+                <!-- <app-chat-list></app-chat-list> -->
+                 <!-- <app-check-list></app-check-list> -->
+                 <!-- <app-expenses-list></app-expenses-list> -->
+                  <div>
+                      <router-outlet></router-outlet>
+                  </div>
                 <div class="sticky-bottom pb-4">
                     <div class="row">
                         <div class="col align-content-center">
