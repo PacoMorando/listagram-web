@@ -2,6 +2,7 @@
 ![Logo Image](docs/ic_launcher.jpg)
 
 ## Despliegue web
+### Link de la aplicación:
 **https://pacomorando.github.io/listagram-web/**
 
 La página que está desplegada actualemte solo es la maquetación de la interfaz de usuario, por lo que no todas las funcionalidades están disponibles.
