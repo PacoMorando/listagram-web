@@ -1,27 +1,39 @@
-# Listagram
+# Listagram Web (UX/UI)
+![Logo Image](docs/ic_launcher.jpg)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.10.
+## Despliegue web
+**https://pacomorando.github.io/listagram-web/**
 
-## Development server
+La página que está desplegada actualemte solo es la maquetación de la interfaz de usuario, por lo que no todas las funcionalidades están disponibles.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+**Se recomienda visualizar en un navegador web, ya que la responsividad aún está en desarrollo**
 
-## Code scaffolding
+## User Interface
+El objetivo principal es unificar el lenguaje del diseño de la interfaz tanto en el navegador como en la aplicación nativa, de modo que todo resulte familiar para el usuario.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+![app screenshot](docs/login_web.JPG)
 
-## Build
+![app screenshot](docs/expenses_web.JPG)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+![app screenshot](docs/chat_web.JPG)
 
-## Running unit tests
+![app screenshot](docs/check_web.JPG)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+A continuación la comparativa de la interfaz con la aplicación nativa para android:
 
-## Running end-to-end tests
+La aplición se puede descargar de aquí:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+**https://play.google.com/store/apps/details?id=com.sas.listagram**
 
-## Further help
+El repositorio se puede consultar aquí:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+**https://github.com/PacoMorando/Listagram**
+
+
+|  |  |
+|---|---|
+| ![app screenshot](docs/listagram_ss1.webp) | ![app screenshot](docs/listagram_ss2.webp)|
+
+|  |  |
+|---|---|
+| ![app screenshot](docs/listagram_ss3.webp) | ![app screenshot](docs/listagram_ss4.webp)|
