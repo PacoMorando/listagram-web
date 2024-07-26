@@ -1,7 +1,7 @@
-<div class="p-3" style="height: 100vh;">
+<div class="p-3" style="height: 100vh; min-width: 1300px; min-height: 890px;">
     <div class="card px-4 h-100">
-        <div class="row h-100">
-            <div class="col-4 pe-4">
+        <div class="d-flex h-100">
+            <div class=" col-4 pe-4">
                 <div class="row py-4">
                     <div class="row justify-content-end mb-5">
                         <div class="col-2 text-start align-content-center">
@@ -9,7 +9,7 @@
                                 <i class="bi bi-arrow-left-short" style="font-size: 2.5rem; color: #383838;"></i>
                             </a>
                         </div>
-                        <div class="col-lg text-center">
+                        <div class="col text-center">
                             <img class="img-fluid" style="max-height: 48px;" src=".\assets\images\logo.png"
                                 alt="Listagram-logo">
                         </div>
@@ -34,7 +34,7 @@
                                     <div class="col pb-4 pe-lg-0">
                                        Total de la lista: $13,500.00
                                     </div>
-                                    <div class="col-lg-3 text-end align-content-end ps-0">
+                                    <div class="col-3 text-end align-content-end ps-0">
                                         <img class="img-fluid" src=".\assets\images\expenses_icon.svg"
                                             alt="chat-list-icon" style="width: 48px;">
                                     </div>
@@ -60,7 +60,7 @@
                                         Una familia pobre se infiltra en la vida de una familia rica, revelando oscuros
                                         secretos.
                                     </div>
-                                    <div class="col-lg-3 text-end align-content-end ps-0">
+                                    <div class="col-3 text-end align-content-end ps-0">
                                         <img class="img-fluid" src=".\assets\images\chat_icon.svg" alt="chat-list-icon"
                                             style="width: 48px;">
                                     </div>
@@ -83,7 +83,7 @@
                                         🥛 Leche
                                         ... <br>
                                     </div>
-                                    <div class="col-lg-3 text-end align-content-end ps-0">
+                                    <div class="col-3 text-end align-content-end ps-0">
                                         <img class="img-fluid" src=".\assets\images\check_icon.svg"
                                             alt="chat-list-icon" style="width: 48px;">
                                     </div>
@@ -95,20 +95,17 @@
                         de la aplicación</p>
                 </div>
             </div>
-            <div class="col ps-5 d-flex justify-content-between flex-column"
+            <div class=" col ps-5 d-flex justify-content-between flex-column"
                 style="border-left: 1px solid; border-color: #dee2e6;">
-                <!-- <app-chat-list></app-chat-list> -->
-                 <!-- <app-check-list></app-check-list> -->
-                 <!-- <app-expenses-list></app-expenses-list> -->
                   <div>
                       <router-outlet></router-outlet>
                   </div>
-                <div class="sticky-bottom pb-4">
+                <div class="pb-4">
                     <div class="row">
                         <div class="col align-content-center">
                             <input type="text" class="custom-input" placeholder="Agrega un elemento">
                         </div>
-                        <div class="col-lg-1 text-end-lg">
+                        <div class="col-1 text-center" style="min-width: 100px;">
                             <button class="btn btn-primary p-0" style="border-radius: 28px; width: 56px; height: 56px;">
                                 <img class="img-fluid" src=".\assets\images\send_icon.svg" alt="chat-list-icon"
                                     style="width: 50px;">
